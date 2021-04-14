@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
   reset_color(s, bg);
   draw_lines(edges, s, arch_color);
   display(s);
-  save_extension(s, "arch_log.png");
+  save_extension(s, "arch_logo.png");
 
   free_matrix( edges );
   free_matrix( transform );
