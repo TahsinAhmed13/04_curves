@@ -65,7 +65,7 @@ void parse_file ( char * filename,
                   struct matrix * edges,
                   screen s) {
 
-  const color c = { 0, 255, 0 }; 
+  const color c = { 0, 0, 255 }; 
   const double step = 0.0001;
 
   FILE *f;
